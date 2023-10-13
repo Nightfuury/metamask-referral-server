@@ -1,0 +1,15 @@
+{
+  "apps": [
+    {
+      "name": "arbieggs-care-backend-app",
+      "script": "src/index.js",
+      "instances": 2,
+      "autorestart": true,
+      "watch": false,
+      "time": true,
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  ]
+}
